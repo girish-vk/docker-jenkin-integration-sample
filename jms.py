@@ -8,7 +8,7 @@ class Jms(stomp.ConnectionListener):
         self.conn = None
 
     def connect_AMQ(self):
-        self.conn = Connection12([('127.0.0.1', 61613)])
+        self.conn = Connection12([('172.17.0.2', 61613)])
 
 
     def connect_JMS(self, message):
