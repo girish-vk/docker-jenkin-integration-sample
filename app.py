@@ -4,7 +4,7 @@ app = Flask(__name__)
 location = []
 @app.route('/')
 def homepage():
-    return "My first A"
+    return "My first Aaa"
 @app.route('/location',methods=['GET'])
 def get():
     return str(location)
