@@ -4,7 +4,7 @@ app = Flask(__name__)
 location = []
 @app.route('/')
 def homepage():
-    return "My first demo change"
+    return "My first demo "
 @app.route('/location',methods=['GET'])
 def get():
     return str(location)
